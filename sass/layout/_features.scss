@@ -21,6 +21,7 @@
     font-weight: 700;
     @include text-tyles(14px, 1.14);
     text-transform: uppercase;
+    color: $title-text-color;
   }
 
   &__text {

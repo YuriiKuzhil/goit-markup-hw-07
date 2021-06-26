@@ -1,17 +1,12 @@
 .page-body {
   font-family: "Roboto", sans-serif;
-  @include text-tyles(14px, 1.71, 0.03em, 400);
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
+  font-weight: 400;
+  @include text-tyles(14px, 1.71);
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  background-color: $primary-white-color;
 }
-// .list {
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-// }
-// .link {
-//   text-decoration: none;
-// }
+
 .container {
   width: 1200px;
   margin-right: auto;

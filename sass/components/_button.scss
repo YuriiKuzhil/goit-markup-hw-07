@@ -1,6 +1,4 @@
-.hero-button,
-.footer-form-button,
-.modal-form-button {
+.button {
   padding: 10px 32px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -8,12 +6,11 @@
 
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include text-tyles(16px, 1.88);
   letter-spacing: 0.06em;
 
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: $primary-white-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
