@@ -93,6 +93,7 @@
     font-weight: 700;
     @include text-tyles(18px, 2);
     letter-spacing: 0.06em;
+    color: $title-text-color;
   }
   &__text {
     margin-top: 0;
